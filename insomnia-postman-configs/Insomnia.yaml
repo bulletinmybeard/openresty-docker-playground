@@ -1,0 +1,541 @@
+_type: export
+__export_format: 4
+__export_date: 2024-04-11T02:34:12.957Z
+__export_source: insomnia.desktop.app:v8.6.1
+resources:
+  - _id: req_2987a33554dd411c942e423c423117fd
+    parentId: wrk_e7e40850cd594622b045e4df625543f6
+    modified: 1712744237630
+    created: 1712744189538
+    url: "{{ _.api_url }}/"
+    name: /
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/8.6.1
+        id: pair_cf476fff631146bfa69ddc623e555c49
+    authentication: {}
+    metaSortKey: -1710601157294
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: wrk_e7e40850cd594622b045e4df625543f6
+    parentId: null
+    modified: 1712744189533
+    created: 1712744189533
+    name: openresty-playground
+    description: ""
+    scope: collection
+    _type: workspace
+  - _id: req_34f88550b0784bc38392c88285ec47ed
+    parentId: wrk_e7e40850cd594622b045e4df625543f6
+    modified: 1712786639656
+    created: 1712786637279
+    url: "{{ _.api_url }}/404"
+    name: (404)
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/8.6.1
+        id: pair_cf476fff631146bfa69ddc623e555c49
+    authentication: {}
+    metaSortKey: -1710601157290.875
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_78864f98e9884e388a8b9fb303af2334
+    parentId: wrk_e7e40850cd594622b045e4df625543f6
+    modified: 1712785719269
+    created: 1712785717767
+    url: "{{ _.api_url }}/health"
+    name: /health
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/8.6.1
+        id: pair_cf476fff631146bfa69ddc623e555c49
+    authentication: {}
+    metaSortKey: -1710601157287.75
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_eb883ff4b0734275be5db04b2087c321
+    parentId: wrk_e7e40850cd594622b045e4df625543f6
+    modified: 1712798443517
+    created: 1712761673656
+    url: "{{ _.api_url }}/lua_logs"
+    name: /lua_logs
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/8.6.1
+        id: pair_cf476fff631146bfa69ddc623e555c49
+    authentication: {}
+    metaSortKey: -1710601157281.5
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_fb4c82136cbd473088293e44a840a5c0
+    parentId: wrk_e7e40850cd594622b045e4df625543f6
+    modified: 1712774713099
+    created: 1712765491112
+    url: "{{ _.api_url }}/request_method_restriction"
+    name: /request_method_restriction
+    description: ""
+    method: PUT
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/8.6.1
+        id: pair_cf476fff631146bfa69ddc623e555c49
+    authentication: {}
+    metaSortKey: -1710601157275.25
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_a813ddc5ebbb4982a344c1997a4e6fb5
+    parentId: wrk_e7e40850cd594622b045e4df625543f6
+    modified: 1712800462998
+    created: 1712744189537
+    url: "{{ _.api_url }}/api_token_auth"
+    name: /api_token_auth
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/8.6.1
+        id: pair_cf476fff631146bfa69ddc623e555c49
+        disabled: false
+      - id: pair_ddd958b689524c08beab070cff275427
+        name: X-API-TOKEN
+        value: desxdfagjjlyufqzxytllmeybcagqgms
+        description: ""
+        disabled: false
+    authentication: {}
+    metaSortKey: -1710601157269
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_d4d6e7ca0d314ed689081e314e29b372
+    parentId: wrk_e7e40850cd594622b045e4df625543f6
+    modified: 1712788070967
+    created: 1712744189548
+    url: "{{ _.api_url }}/post_data"
+    name: /post_data
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"john": "doe"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/8.6.1
+        id: pair_cf476fff631146bfa69ddc623e555c49
+    authentication: {}
+    metaSortKey: -1710549746746.25
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_a6ca53cad3634d508a616b8403418f5c
+    parentId: wrk_e7e40850cd594622b045e4df625543f6
+    modified: 1712752379075
+    created: 1712752284074
+    url: "{{ _.api_url }}/json_data"
+    name: /json_data
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/8.6.1
+        id: pair_cf476fff631146bfa69ddc623e555c49
+    authentication: {}
+    metaSortKey: -1710498336223.5
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_e156ed3e14124ccaa9a176789bf03a3e
+    parentId: wrk_e7e40850cd594622b045e4df625543f6
+    modified: 1712756245623
+    created: 1712756243707
+    url: "{{ _.api_url }}/metrics"
+    name: /metrics
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/8.6.1
+        id: pair_cf476fff631146bfa69ddc623e555c49
+    authentication: {}
+    metaSortKey: -1710472630962.125
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_6a267f62097e45c9b722d0f4bd7ce39e
+    parentId: wrk_e7e40850cd594622b045e4df625543f6
+    modified: 1712757295899
+    created: 1712756792526
+    url: "{{ _.api_url }}/query_params?john=doe"
+    name: /query_params
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/8.6.1
+        id: pair_cf476fff631146bfa69ddc623e555c49
+    authentication: {}
+    metaSortKey: -1710459778331.4375
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_525e4bc0ee844d64bb5ca9df459bdf89
+    parentId: wrk_e7e40850cd594622b045e4df625543f6
+    modified: 1712762038341
+    created: 1712757343593
+    url: "{{ _.api_url }}/shared_cache"
+    name: /shared_cache
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/8.6.1
+        id: pair_cf476fff631146bfa69ddc623e555c49
+    authentication: {}
+    metaSortKey: -1710453352016.0938
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_743d1e8d39464f53ac35b0b7b4220d57
+    parentId: wrk_e7e40850cd594622b045e4df625543f6
+    modified: 1712775510371
+    created: 1712759592172
+    url: "{{ _.api_url }}/jwt/sign"
+    name: /jwt/sign
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"john": "doe",
+        	"jane": "doe",
+        	"test": "value"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/8.6.1
+        id: pair_cf476fff631146bfa69ddc623e555c49
+    authentication: {}
+    metaSortKey: -1710447728990.168
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_1442305a20fd4aee82c03a5b9f300567
+    parentId: wrk_e7e40850cd594622b045e4df625543f6
+    modified: 1712776954469
+    created: 1712759609248
+    url: "{{ _.api_url }}/jwt/verify"
+    name: /jwt/verify
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/8.6.1
+        id: pair_cf476fff631146bfa69ddc623e555c49
+    authentication:
+      type: bearer
+      token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqb2huIjoiZG9lIiwiamFuZSI6ImRvZSIsInRlc3QiOiJ2YWx1ZSJ9.YZuGsPPlNlN8DbDc2VEgkXdkd_-Zbr8qxlsMgf05ggU
+      disabled: false
+    metaSortKey: -1710447327345.459
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_f13cc9289eb44405a25853ec1b868c48
+    parentId: wrk_e7e40850cd594622b045e4df625543f6
+    modified: 1712801490277
+    created: 1712760154476
+    url: "{{ _.api_url }}/jwt/page"
+    name: /jwt/page
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/8.6.1
+        id: pair_cf476fff631146bfa69ddc623e555c49
+    authentication:
+      type: bearer
+      token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqYW5lIjoiZG9lIiwidGVzdCI6InZhbHVlIiwiam9obiI6ImRvZSJ9.irSIqBPaYGQpGRtb148SeNKVaEOL4Ngc3pW1gkKvbz0
+      disabled: false
+    metaSortKey: -1710447126523.1045
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_b2c83687bf3a47ed896d6349ebdee5db
+    parentId: wrk_e7e40850cd594622b045e4df625543f6
+    modified: 1712761999216
+    created: 1712761047875
+    url: "{{ _.api_url }}/inject_headers"
+    name: /inject_headers
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/8.6.1
+        id: pair_cf476fff631146bfa69ddc623e555c49
+    authentication: {}
+    metaSortKey: -1710446950803.5444
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_cc11e78ada2e44d4a56defbe264295cc
+    parentId: wrk_e7e40850cd594622b045e4df625543f6
+    modified: 1712801508022
+    created: 1712762133704
+    url: "{{ _.api_url }}/transform_image"
+    name: /transform_image
+    description: ""
+    method: POST
+    body:
+      mimeType: application/octet-stream
+      fileName: /Users/rschulz/Downloads/skeletor.jpg
+    parameters:
+      - name: width
+        value: "350"
+        id: pair_12227c4bf14d4277a91dc359aa837532
+      - name: height
+        value: "350"
+        id: pair_4732fb302b0a41d98eb0a5c24bed23f9
+      - name: degrees
+        value: "50"
+        id: pair_78468ef14b08438f94880e64388947f8
+        disabled: true
+    headers:
+      - name: Content-Type
+        value: image/jpeg
+      - name: User-Agent
+        value: insomnia/8.6.1
+        id: pair_cf476fff631146bfa69ddc623e555c49
+    authentication: {}
+    metaSortKey: -1710446938252.1472
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_31825377576a4e749058112e53f6544b
+    parentId: wrk_e7e40850cd594622b045e4df625543f6
+    modified: 1712775706679
+    created: 1712775355528
+    url: "{{ _.api_url }}/get_yaml_config"
+    name: /get_yaml_config
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/8.6.1
+        id: pair_cf476fff631146bfa69ddc623e555c49
+    authentication: {}
+    metaSortKey: -1710446931976.4487
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_d9f6d4928a344420955e82d6da6bf538
+    parentId: wrk_e7e40850cd594622b045e4df625543f6
+    modified: 1712777920451
+    created: 1712777917860
+    url: "{{ _.api_url }}/get_env_vars"
+    name: /get_env_vars
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/8.6.1
+        id: pair_cf476fff631146bfa69ddc623e555c49
+    authentication: {}
+    metaSortKey: -1710446928838.5994
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: env_fd3224f5fb764d88ae22e8e80fe95c35
+    parentId: wrk_e7e40850cd594622b045e4df625543f6
+    modified: 1712785707664
+    created: 1712744189535
+    name: Base Environment
+    data:
+      api_url: http://localhost:8080
+      api_key: ""
+      GLOBAL_HEADERS:
+        Accept: application/json
+    dataPropertyOrder:
+      "&":
+        - api_url
+        - api_key
+        - GLOBAL_HEADERS
+      "&~|GLOBAL_HEADERS":
+        - Accept
+    color: null
+    isPrivate: false
+    metaSortKey: 1710600659560
+    _type: environment
+  - _id: jar_83a74b346efe4c9ba33e6686fa8f041e
+    parentId: wrk_e7e40850cd594622b045e4df625543f6
+    modified: 1712744189536
+    created: 1712744189536
+    name: Default Jar
+    cookies: []
+    _type: cookie_jar
+  - _id: spc_25ed2d53ffa24925805d5e02a98907f1
+    parentId: wrk_e7e40850cd594622b045e4df625543f6
+    modified: 1712744189574
+    created: 1712744189571
+    fileName: openresty-playground
+    contents: ""
+    contentType: yaml
+    _type: api_spec

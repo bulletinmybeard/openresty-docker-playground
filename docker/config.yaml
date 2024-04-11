@@ -1,0 +1,4 @@
+nginx:
+  jwt_secret: change-me-please
+  auth_token: desxdfagjjlyufqzxytllmeybcagqgms
+  log_level: DEBUG

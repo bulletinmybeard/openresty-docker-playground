@@ -1,0 +1,11 @@
+.git
+.idea
+.DS_STORE
+.gitignore
+Thumbs.db
+insomnia-postman-configs
+CHANGELOG
+CODEOWNERS
+LICENSE
+README.md
+docker-compose.yml

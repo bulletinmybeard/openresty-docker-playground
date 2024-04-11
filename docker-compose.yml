@@ -1,0 +1,21 @@
+services:
+  nginx:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    volumes:
+      - ./docker/nginx/conf.d:/etc/nginx/conf.d
+      - ./docker/nginx/nginx.conf:/usr/local/openresty/nginx/conf/nginx.conf
+      - ./docker/lua:/usr/local/openresty/nginx/lua
+      - ./docker/config.yaml:/opt/config.yaml
+    environment:
+      - OPENRESTY_VERSION=1.25.3.1
+      - VIRTUAL_HOST=localhost
+    ports:
+      - "8080:8080"
+    networks:
+      - openresty_playground
+
+networks:
+  openresty_playground:
+    driver: bridge
