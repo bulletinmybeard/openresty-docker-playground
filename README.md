@@ -97,7 +97,7 @@ curl --request POST \
 
 ### Exploring Nginx and Lua Integration
 The main Nginx configuration file ([nginx.conf](docker/nginx/nginx.conf)) and the project-specific [local.conf](docker/nginx/conf.d/local.conf) file outline server directives and locations.
-Lua scripts and modules can be found within the project's directory structure.
+Lua scripts and modules can be found within the project's directory [docker/lua](docker/lua).
 
 The Docker container is configured to automatically reload the Nginx server upon changes to Lua scripts or Nginx configuration files, facilitated by a monitoring script ([monitor.sh](docker/scripts/monitor.sh)).
 
