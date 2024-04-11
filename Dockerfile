@@ -73,5 +73,5 @@ EXPOSE 8080
 # Set the container's entrypoint to `/opt/entrypoint.sh`.
 ENTRYPOINT ["/opt/entrypoint.sh"]
 
-# Start NGINX in the foreground.
+# Start Nginx in the foreground.
 CMD ["nginx", "-g", "daemon off;"]

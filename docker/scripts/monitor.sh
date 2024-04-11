@@ -8,18 +8,18 @@ CONFIG_DIRS=(
     "/usr/local/openresty/nginx/conf"
 )
 
-# Delay in seconds to wait for more changes before reloading NGINX.
+# Delay in seconds to wait for more changes before reloading Nginx.
 DELAY_IN_SECONDS=2
 
 reload_nginx() {
     echo "$(date) - Changes detected, waiting for more changes..." >> /var/log/monitor.log
     sleep $DELAY_IN_SECONDS
-    echo "$(date) - Delay passed, checking NGINX configuration..." >> /var/log/monitor.log
+    echo "$(date) - Delay passed, checking Nginx configuration..." >> /var/log/monitor.log
     if nginx -t 2>> /var/log/monitor-errors.log; then
         nginx -s reload
-        echo "$(date) - NGINX successfully reloaded." >> /var/log/monitor.log
+        echo "$(date) - Nginx successfully reloaded." >> /var/log/monitor.log
     else
-        echo "$(date) - NGINX configuration test failed, reload skipped." >> /var/log/monitor-errors.log
+        echo "$(date) - Nginx configuration test failed, reload skipped." >> /var/log/monitor-errors.log
     fi
 }
 

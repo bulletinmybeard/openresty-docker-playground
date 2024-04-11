@@ -1,4 +1,4 @@
--- In order to make environment variables available throughout NGINX,
+-- In order to make environment variables available throughout Nginx,
 -- they need to be added to the `nginx.conf` file using the `env` directive.
 
 local OPENRESTY_VERSION = os.getenv("OPENRESTY_VERSION")
