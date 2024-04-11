@@ -8,7 +8,7 @@ source = {
 }
 
 description = {
-    summary = "LUA dependencies"
+    summary = "Lua dependencies"
 }
 
 dependencies = {

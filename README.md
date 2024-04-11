@@ -1,5 +1,8 @@
+![MIT license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+
 # openresty-docker-playground
-A sandbox for exploring Nginx and LUA with OpenResty in Docker.
+A sandbox for exploring Nginx and Lua with OpenResty in Docker.
 Quickly spin up a pre-configured Docker container and dive into Nginx and Lua.
 Modify existing locations and code to experiment and develop your own solutions.
 
@@ -27,7 +30,7 @@ From restricting locations to rate limiting, JWT verification, and image transfo
 Before you begin, ensure you have installed the following tools:
 - [Docker](https://docs.docker.com/get-docker/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
-- For testing API endpoints: [Insomnia](https://insomnia.rest/download) or [Postman](https://www.postman.com/downloads/) (optional)
+- For testing the Nginx locations: [Insomnia](https://insomnia.rest/download) or [Postman](https://www.postman.com/downloads/) (optional)
 
 ### Installation
 
@@ -48,7 +51,7 @@ docker-compose up --build
 ## Usage
 ### Nginx Locations
 The provided Docker setup comes with multiple pre-configured Nginx locations, demonstrating various functionalities.
-You can test these endpoints using `cURL` or by importing the provided REST API collections into Insomnia or Postman from the [insomnia-postman-configs](insomnia-postman-configs) directory.
+You can test the locations using `cURL` or by importing the provided REST API collections into Insomnia or Postman from the [insomnia-postman-configs](insomnia-postman-configs) directory.
 
 | Request method | Location                      | Authentication       | Body/Get Query parameters                                | Description                                                                                    |
 |----------------|-------------------------------|----------------------|----------------------------------------------------------|------------------------------------------------------------------------------------------------|
@@ -68,7 +71,7 @@ You can test these endpoints using `cURL` or by importing the provided REST API 
 | GET, POST      | `/request_method_restriction` | N/A                  | N/A                                                      | Restricts the allowed HTTP methods to GET and POST.                                            |
 | ANY            | `/get_yaml_config`            | N/A                  | N/A                                                      | Generates a JSON response containing config values.                                            |
 | ANY            | `/get_env_vars`               | N/A                  | N/A                                                      | Accesses environment variables and returns them in a JSON payload.                             |
-| ANY            | `/health`                     | N/A                  | N/A                                                      | Health check endpoint. Returns a JSON payload indicating a "healthy" status.                   |
+| ANY            | `/health`                     | N/A                  | N/A                                                      | Health check location. Returns a JSON payload indicating a "healthy" status.                   |
 | ANY            | `/`                           | N/A                  | N/A                                                      | Default route. Returns "OK".                                                                   |
 
 ### Testing with cURL
